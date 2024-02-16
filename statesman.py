@@ -13,7 +13,7 @@ import typing
 import warnings
 from typing import Any, Callable, Coroutine, Dict, Iterator, List, Literal, Mapping, Optional, Sequence, Set, Tuple, Type, TypeVar, Union
 
-import pydantic
+import pydantic.v1 as pydantic
 
 __all__ = [
     'StateEnum',
